@@ -1,0 +1,18 @@
+
+/* si empieza con pundo se llama CLASE */
+.titulo {
+    color: red;
+    background-color: green;
+    font-size: 35px;
+    text-shadow: yellow 0 0 5px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.parrafo {
+    padding: 16px;
+    border: 1px solid;
+    border-color: rgb(255, 0, 0);
+    background-color: #ebf4fb; /* RGB */
+    border-radius: 3px;
+}
