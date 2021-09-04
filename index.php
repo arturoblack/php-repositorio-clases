@@ -11,13 +11,19 @@
 require_once 'SimpleTemplateEngine/loader.php';
 $env = new SimpleTemplateEngine\Environment('./plantillas');
 
-$suma = 4 + 2;
+
+function suma($n1, $n2) {
+    return $n1 + $n2;
+}
+
 $datos = [
     "titulo" => "Hola mundo",
     "descripcion" => "Bienvenido a mi pagia web",
-    "suma" => $suma,
+    "suma" => suma($_GET['n1'] ?? 0, 2),
 ];
 
 echo $env->render('template.php', $datos);
 
 ?>
+
+

@@ -16,3 +16,17 @@
     background-color: #ebf4fb; /* RGB */
     border-radius: 3px;
 }
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue; /* RGB */
+    color: slateblue;
+    text-align: center;
+    padding: auto;
+    vertical-align: middle;
+}
+
+.tabla-alumno {
+    border: 1px solid;
+}

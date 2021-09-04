@@ -1,4 +1,9 @@
 <?php
+
+    //include the loader
+    require_once 'SimpleTemplateEngine/loader.php';
+    $env = new SimpleTemplateEngine\Environment('./plantillas');
+
     // Clases y herencias
 
     // La DEFINICION de una entidad

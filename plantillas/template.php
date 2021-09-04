@@ -8,6 +8,12 @@
     <title>Mi pagina web</title>
 </head>
 <body>
+    <div id="cuadrado" 
+        class="cuadrado" 
+        onmouseover="toRectangulo()"
+        onmouseleave="toCuadrado()">
+        <p>hola!!!</p>
+    </div>
     <h1 class="titulo"> <?php echo $titulo; ?> </h1>
     <p class="parrafo"> <?php echo $descripcion; ?> </p>
     <p class="parrafo">
@@ -19,6 +25,7 @@
         </button>
         la suma es <?php echo $suma; ?>
     </p>
+    <img src="/img/img.jpg" alt="imagen">
 
     <script src="/js/app.js"></script>
 </body>
